@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tri Adhi Gunawan</title>
+    <link rel="stylesheet" href="assets/main.css">
+    <link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+    <header style="position: sticky; top: 0;">  <!--- header --->
+        <div class="jumbotron">
+            <h1>Welcome To My Blog</h1>
+            <p>Blog kecerdasan logika</p>
+            <div class="container">
+                <div class="header">
+                    <nav>
+                        <div class="brand"><a href="index.html" style="text-decoration: none; padding-top: 15px;"><h3>Tag Developer</h3></a></div>
+                        <label class='show-menu' for='show-menu'>Menu</label>
+                        <input id='show-menu' role='button' type='checkbox'/>
+                        <ul id='menu'>
+                            <li>
+                                <a class='drop'>Pages</a>
+                                <ul class='hidden'>
+                                    <li><a href='#css'>CSS</a></li>
+                                    <li><a href='#htm'>HTML</a></li>
+                                    <li><a href='#js'>Javascript</a></li>
+                                    <li><a href='#pr'>Profile</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div> 
+        </div>
+    </header><!-- /header -->
+        <main class="main"> <!--- main --->
+            <article> <!-- article -->
+                <div class="middle">
+                    <div id="css">
+                        <img src="image/css.png" alt="css">
+                        <h1>CSS</h1>
+                        <p>
+                            <b>Cascading Style Sheet (CSS)</b> merupakan aturan untuk mengatur beberapa komponen dalam sebuah web sehingga akan lebih terstruktur dan seragam. CSS bukan merupakan bahasa pemrograman.
+                        </p>
+                        <p>
+                            CSS dapat mengendalikan ukuran gambar, warna bagian tubuh pada teks, warna tabel, ukuran border, warna border, warna hyperlink, warna mouse over, spasi antar paragraf, spasi antar teks, margin kiri, kanan, atas, bawah, dan parameter lainnya. CSS adalah bahasa style sheet yang digunakan untuk mengatur tampilan dokumen. Dengan adanya CSS memungkinkan kita untuk menampilkan halaman yang sama dengan format yang berbeda.
+                        </p>
+                        <h3>Sejarah CSS</h3>
+                        <p>
+                            Nama CSS didapat dari fakta bahwa setiap deklarasi style yang berbeda dapat diletakkan secara berurutan, yang kemudian membentuk hubungan ayah-anak (parent-child) pada setiap style. CSS sendiri merupakan sebuah teknologi internet yang direkomendasikan oleh World Wide Web Consortium atau W3C pada tahun 1996. Setelah CSS distandardisasikan, Internet Explorer dan Netscape melepas browser terbaru mereka yang telah sesuai atau paling tidak hampir mendekati dengan standar CSS.
+                            Untuk saat ini terdapat tiga versi CSS, yaitu <em>CSS1, CSS2, dan CSS3</em>. CSS1 dikembangkan berpusat pada pemformatan dokumen HTML, CSS2 dikembangkan untuk memenuhi kebutuhan terhadap format dokumen agar bisa ditampilkan di printer, sedangkan CSS3 adalah versi terbaru dari CSS yang mampu melakukan banyak hal dalam desain website. CSS3 mendukung penentuan posisi konten, downloadable, huruf font, tampilan pada tabel /table layout dan media tipe untuk printer. Kehadiran versi CSS yang ketiga diharapkan lebih baik dari versi pertama dan kedua.
+                        </p>
+                        <p>
+                            CSS3 juga dapat melakukan animasi pada halaman website, di antaranya animasi warna hingga animasi 3D. Dengan CSS3 desainer lebih dimudahkan dalam hal kompatibilitas websitenya pada smartphone dengan dukungan fitur baru yakni media query. Selain itu, banyak fitur baru pada CSS3 seperti: multiple background, border-radius, drop-shadow, border-image, CSS Math, dan CSS Object Model.
+                        </p>
+                        <h3>Penulisan</h3>
+                        <p>
+                            Bagian pertama sebelum tanda '{}' dinamakan selector, sedangkan yang diapit oleh '{}' disebut declaration yang terdiri dari dua unsur, yaitu property dan value. Selector dalam pernyataan di atas adalah h1, sedangkan color adalah property, dan #0789de adalah value. Selain itu ada tiga metode penulisan CSS atribut, yaitu:
+                        </p>
+                        <h4>Inline Style Sheet</h4>
+                        <p>
+                            CSS didefinisikan langsung pada tag HTML yang bersangkutan. Cara penulisannya cukup dengan menambahkan atribut style="..." dalam tag HTML tersebut. Style hanya akan berlaku pada tag yang bersangkutan, dan tidak akan memengaruhi tag HTML yang lain.
+                        </p>
+                        <h4>Embedded Style Sheet</h4>
+                        <p>
+                            CSS didefinisikan terlebih dahulu dalam tag <style> ...</style> di atas tag <body>. Pada pendefinisian ini disebutkan atribut-atribut CSS yang akan digunakan untuk tag-tag HTML, yang selanjutnya dapat digunakan oleh tag HTML yang bersangkutan.
+                        </p>
+                        <h4>External CSS</h4>
+                        <p>
+                            CSS didefinisikan dengan disimpan di berkas yang berbeda. Ini dapat mempermudah dalam perawatan dan dapat digunakan di semua berkas HTML sehingga memudahkan seorang pengembang web untuk mengembangkan situs web miliknya. Untuk menautkan berkas CSS ke suatu berkas HTML kita hanya perlu menggunakan kode
+                        </p>
+                        <h4>Shorthand CSS</h4>
+                        <p>
+                            Ada beberapa properti CSS yang dapat disingkat, biasanya dipanggil dengan Shorthand CSS. Teknik shorthand adalah cara mempersingkat penulisan kode CSS yang memungkinkan untuk menetapkan nilai beberapa property secara bersamaan. Teknik ini dapat menghemat karakter, menghemat energi, dan tentu saja menghemat waktu. Kode jadi terlihat lebih rapi, efisien, dan sering kali lebih mudah dibaca.
+                        </p>
+                        <p>
+                            Dalam CSS, adalah wajar jika satu property memiliki banyak elemen. Misalnya dalam kode margin memiliki 4 property untuk setiap sisi elemen.
+                            <ol type="1">
+                                <li>Margin-Top</li>
+                                <li>Margin-Right</li>
+                                <li>Margin-Bottom</li>
+                                <li>Margin-Left</li>
+                            </ol>
+                        </p>
+                        <p>
+                            Jika menggunakan teknik shorthand CSS, maka penulisan semua property bisa disatukan demi terciptanya kode yang lebih ringkas. Urutan penulisan syntax pada teknik shorthandharus benar agar sesuai dengan style yang diinginkan.
+                            Untuk saat ini metode penulisan shorthand CSS tersedia untuk beberapa property berikut: 
+                            <ol type="1">
+                                <li>Margin</li>
+                                <li>Padding</li>
+                                <li>Font</li>
+                                <li>Background</li>
+                                <li>Border</li>
+                                <li>List</li>
+                            </ol>
+                        </p>
+                        <p>
+                            Sumber : <a style="text-decoration: none" href="https://id.wikipedia.org/wiki/Cascading_Style_Sheets"> Wikipedia</a>
+                        </p>
+                        <div class="garis"></div>
+                    </div><br>
+                    <div id="htm">
+                        <img src="image/html.png" alt="html">
+                        <h1>HTML</h1>
+                        <p>
+                            Hypertext Markup Language (HTML) adalah bahasa markah standar untuk dokumen yang dirancang untuk ditampilkan di peramban internet. Ini dapat dibantu oleh teknologi seperti Cascading Style Sheets (CSS) dan bahasa skrip lainnya seperti JavaScript, VBScript, dan PHP. 
+                            Peramban internet menerima dokumen HTML dari server web atau dari penyimpanan lokal dan membuat dokumen menjadi halaman web multimedia. HTML menggambarkan struktur halaman web secara semantik dan isyarat awal yang disertakan untuk penampilan dokumen. 
+                        </p>
+                        <p>
+                            Elemen HTML digambarkan oleh tag, ditulis menggunakan tanda kurung siku. Tag seperti <em style="color: blue;">img dan input</em> langsung perkenalkan konten ke dalam halaman. Tag lain seperti <em style="color: blue;">p</em> mengelilingi dan memberikan informasi tentang teks dokumen dan mungkin menyertakan tag lain sebagai sub-elemen. Peramban tidak menampilkan tag HTML, tetapi menggunakannya untuk menafsirkan konten halaman.
+                        </p>
+                        <p>
+                            HTML dapat menyematkan program yang ditulis dalam bahasa skrip seperti JavaScript, yang memengaruhi perilaku dan konten halaman web. Dimasukkannya CSS mendefinisikan tampilan dan tata letak konten. World Wide Web Consortium (W3C), mantan pengelola HTML dan pemelihara standar CSS saat ini, telah mendorong penggunaan CSS pada HTML presentasi eksplisit sejak 1997.
+                        </p>
+                        <h3>Sejarah HTML</h3>
+                        <p>
+                            Pada tahun 1980 seorang ahli fisika, Tim Berners-Lee, dan juga seorang kontraktor di CERN (Organisasi Eropa untuk Riset Nuklir) mengusulkan dan menyusun ENQUIRE, sebuah sistem untuk ilmuwan CERN dalam membagi dokumen. Sembilan tahun kemudian, Berners-Lee mengusulkan adanya sistem markah berbasis internet. Berners-Lee menspesifikasikan HTML dan menulis jaringan beserta perangkat lunaknya di akhir 1990. Pada tahun yang sama, Berners-Lee dan Robert Cailliau, insinyur sistem data CERN berkolaborasi dalam sebuah permintaan untuk pendanaan, namun tidak diterima secara resmi oleh CERN. Di catatan pribadinya sejak 1990 dia mendaftar "beberapa dari banyak daerah yang menggunakan hypertext" dan pertama-tama menempatkan sebuah ensiklopedia.
+                        </p>
+                        <p>
+                            Penjelasan pertama yang dibagi untuk umum dari HTML adalah sebuah dokumen yang disebut "Tanda HTML", pertama kali disebutkan di Internet oleh Tim Berners-Lee pada akhir 1991. Tanda ini menggambarkan 18 elemen awal mula, versi sederhana dari HTML. Kecuali untuk tag hyperlink, yang sangat dipengaruhi oleh SGMLguid, in-house Standard Generalized Markup Language (SGML) berbasis format dokumen di CERN. Sebelas elemen ini masih ada di HTML 4.
+                        </p>
+                        <p>
+                            HTML adalah bahasa markah yang digunakan peramban untuk menafsirkan dan menulis teks, gambar dan bahan lainnya ke dalam halaman web secara visual maupun suara. Karakteristik dasar untuk setiap item dari markah HTML didefinisikan di dalam peramban, dan karakteristik ini dapat diubah atau ditingkatkan dengan menggunakan tambahan halaman web desainer CSS. Banyak elemen teks ditemukan di laporan teknis ISO pada tahun 1988 TR 9537 Teknik untuk menggunakan SGML, yang pada gilirannya meliputi fitur bahasa format teks awal seperti yang digunakan oleh komandan RUNOFF dikembangkan pada awal 1960-an untuk sistem operasi: perintah-perintah format ini berasal dari perintah yang digunakan oleh pengetik untuk memformat dokumen CTSS secara manual. Namun, konsep SGML dari markah umum didasarkan pada unsur-unsur daripada hanya efek cetak, dengan pemisahan struktur dan markah juga; HTML telah semakin bergerak ke arah ini dengan CSS. 
+                        </p>
+                        <p>
+                            Sumber : <a href="https://id.wikipedia.org/wiki/HTML" style="text-decoration: none"> Wikipedia</a>
+                        </p>
+                        <div class="garis"></div>
+                    </div><br>
+                    <div id="js">
+                        <img src="image/javascript.jpg" alt="JavaScript">
+                        <h1>Javascript</h1>
+                        <p>
+                            JavaScript (disingkat JS) adalah suatu bahasa pemrograman tingkat tinggi dan dinamis. JavaScript populer di internet dan dapat bekerja di sebagian besar penjelajah web populer seperti Google Chrome, Internet Explorer (IE), Mozilla Firefox, Netscape dan Opera. Kode JavaScript dapat disisipkan dalam halaman web menggunakan tag script. JavaScript merupakan salah satu teknologi inti World Wide Web selain HTML dan CSS. JavaScript membantu membuat halaman web interaktif dan merupakan bagian aplikasi web yang esensial.
+                        </p>
+                        <p>
+                            Awalnya hanya diimplementasi sebagai client-side dalam penjelajah web, kini engine JavaScript disisipkan ke dalam perangkat lunak lain seperti dalam server-side dalam server web dan basis data, dalam program non web seperti perangkat lunak pengolah kata dan pembaca PDF, dan sebagai runtime environment yang memungkinkan penggunaan JavaScript untuk membuat aplikasi desktop maupun mobile. JavaScript adalah merek dagang yang dikeluarkan dari Oracle Corporation di Amerika Serikat.
+                        </p>
+                        <h3>Sejarah</h3>
+                        <p>
+                            JavaScript pertama kali dikembangkan oleh Brendan Eich dari Netscape di bawah nama Mocha, yang nantinya namanya diganti menjadi LiveScript, dan akhirnya menjadi JavaScript.
+                            Navigator sebelumnya telah mendukung Java untuk lebih bisa dimanfaatkan para pemrogram yang non-Java. Maka dikembangkanlah bahasa pemrograman bernama LiveScript untuk mengakomodasi hal tersebut. Bahasa pemrograman inilah yang akhirnya berkembang dan diberi nama JavaScript, walaupun tidak ada hubungan bahasa antara Java dengan JavaScript.
+                        </p>
+                        <p>
+                            JavaScript bisa digunakan untuk banyak tujuan, misalnya untuk membuat efek rollover baik di gambar maupun teks, dan yang penting juga adalah untuk membuat AJAX. JavaScript adalah bahasa yang digunakan untuk AJAX.
+                        </p>
+                        <h4>Pembuatan Oleh Netscape</h4>
+                        <p>
+                            Browser web pertama dengan antarmuka pengguna grafis, Mosaic, dirilis pada tahun 1993. Dapat diakses oleh orang-orang non-teknis, ini memainkan peran penting dalam pertumbuhan pesat World Wide Web yang baru lahir. Pengembang utama Mosaic kemudian mendirikan perusahaan Netscape, yang merilis browser yang lebih halus, Netscape Navigator, pada tahun 1994. Ini dengan cepat menjadi yang paling banyak digunakan.
+                        </p>
+                        <p>
+                            Selama tahun-tahun awal Internet, halaman web hanya bisa statis, tanpa perilaku dinamis setelah dimuat ke browser. Karena ada permintaan untuk bahasa scripting di komunitas pengembangan web yang sedang berkembang, Netscape memutuskan untuk memasukkannya ke Navigator pada tahun 1995. Untuk melakukan ini, mereka bekerja dengan Sun Microsystems untuk mengintegrasikan bahasa pemrograman Java, serta merekrut Brendan Eich untuk menanamkan bahasa Skema.
+                        </p>
+                        <p>
+                            Manajemen Netscape dengan cepat memutuskan bahwa solusi terbaik adalah bagi Eich untuk membuat bahasa baru dengan sintaks yang lebih mirip Java daripada Skema atau bahasa skrip lain yang ada. Meskipun bahasa baru dan implementasi penerjemahnya disebut LiveScript ketika pertama kali dikirimkan sebagai bagian dari Navigator beta pada bulan September 1995, nama tersebut diubah menjadi JavaScript untuk rilis resmi pada bulan Desember.
+                            Nama JavaScript telah menyebabkan beberapa kebingungan karena menyiratkan bahwa itu terkait langsung dengan Java. Karena ledakan dot-com baru saja dimulai dan Java adalah bahasa baru terpanas saat ini, Eich melihat moniker JavaScript sebagai taktik pemasaran oleh Netscape.
+                        </p>
+                        <h4>Pengadopsian Oleh Microsoft</h4>
+                        <p>
+                            Microsoft memulai debut dengan Internet Explorer ditahun 1995, sebagai pengarah perang browser dengan Netscape. Di bagian depan JavaScript, Microsoft merekayasa balik penerjemah Navigator untuk membuatnya sendiri, yang disebut JScript.
+                        </p>
+                        <p>
+                            JScript pertama kali diluncurkan pada tahun 1996, bersamaan dukungan awal untuk CSS dan ekstensi ke HTML . Masing-masing implementasi ini sangat berbeda dari rekan-rekan mereka di Navigator. Karena perbedaan ini, sulit bagi perancang web untuk membuat situs mereka tampil efektif di kedua browser, oleh karena itu logo "terbaik dilihat di Netscape" dan "terbaik dilihat di Internet Explorer" banyak digunakan selama beberapa tahun.
+                        </p>
+                        <p>"JavaScript" adalah sebuah merek dagang Oracle Corporation di Amerika Serikat.</p>
+                        <p>
+                            Sumber : <a href="https://id.wikipedia.org/wiki/JavaScript" style="text-decoration: none"> Wikipedia</a>
+                        </p>
+                    </div>
+                </div> 
+            </artikel> <!-- /article -->
+
+            <aside> <!-- aside -->
+                <div class="right">
+                    <div id="pr">
+                        <center >
+                            <img src="image/tag.png" alt="tri" style="width: 30%; height: 150px; border-radius: 10px; padding-top: 5px;">
+                            <h4 style="Margin-Top: 5px; margin-bottom: 2px;">Tri Adhi Gunawan</h4>
+                            <p>Web Developer - TagDev</p>
+                            <p>
+                        </center>
+                                <ol type="none" style="padding-right: 20px;">
+                                    <li>TTL : Ujung pandang, 09 Mei 1990</li>
+                                    <li>Jenis Kelamin : Laki-laki</li>
+                                    <li>Pendidikan : Sarjana Komputer</li>
+                                    <li>Email : tgunawant@gmail.com</li>
+                                    <li>Whatsapp : 085945186337</li>
+                                    <li>Alamat : Tangerang - Banten</li>
+                                    <li>Motto : Bergerak Tanpa Bayangan</li>
+                                </ol>
+                            </p>
+                    </div>
+                </div> <!-- /right -->
+            </aside><!-- /aside -->
+
+        </main> <!-- /main -->
+        <footer>
+            <div class="footer">
+                <p>TagDev © <script>document.write(new Date().getFullYear());</script> - Tri Adhi Gunawan</p>
+            </div> 
+        </footer><!-- /footer -->
+    </div>
+</body>
+</html>
